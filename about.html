@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>About - blog name</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header class = "header" id="header">
+        <nav class = "navbar container">
+            <a href=index.html>  
+                <p class="logo">
+                    blog name
+                <p>
+            </a>
+            <div class="nav-right-part">
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">  
+                        <a href="index.html" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item current">  
+                        <a href="about.html" class="list-link current">About</a>
+                    </li>
+                    <li class="list-item">  
+                        <a href="tags/school.html" class="list-link">School</a>
+                    </li>
+                    <li class="list-item">  
+                        <a href="tags/music.html" class="list-link">Music</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+                <button class="btn place-items-center screen-lg-hidden menu-toggle" id="menu-toggle">
+                    <i class="ri-menu-3-line open-menu"></i>
+                    <i class="ri-close-line close-menu"></i>
+                </button>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container-inner">
+            <form action="" class="form">
+                <input type="text" class="form-input" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+     </div>
+
+
+     <!-- content -->
+     <section class="about-me section-header-offset">
+        <h2 class="about-heading">About</h2>
+        <p class="about-text"> melody • she/her • high school student • chinese-american • istp • scorpio</p>
+        <p class="about-text"> my hobbies include playing golf and violin </p>
+        <p class="about-text"> with <u> <a href="https://youtu.be/Aj7HLsJenVg" target="_blank" rel="noopener noreferrer">
+            this YouTube tutorial from FreeCodeCamp</a></u>  and my basic knowledge of HTML/CSS, 
+            i coded this blog (see: <u> <a href = "posts/241121.html">this post</a></u> and
+            bottom of this page)</p>
+
+        <div class="about-imgs container d-grid">
+            <img src="images/book-and-flower.jpeg" alt="" class=about-img-1>
+            <img src="images/chinese.jpeg" alt="" class="about-img-2">
+            <img src="images/water.jpeg" alt="" class="about-img-3">
+        </div>
+
+        <div class="notes-section">
+             <p class="about-heading note-heading"> Note </p>
+             <p class="about-text"> - If you use the search button, it won't search anything 
+                (you could say the button is just decoration) </p>
+             <p class="about-text"> - I'll accept suggestions to improve the code </p>
+             <p class="about-text"> - I edit my old posts </p>
+        </div>
+     </section>
+
+     <footer class="footer section">
+        <div class="footer-container container d-grid">
+            <div class="company-data">
+                <p class="logo">
+                    blog name
+                <p>
+                <p class="blog-description">
+                    The inner musings of someone who is slowly discovering how the world works.
+                </p>
+
+                <p class="find-me-text">Find me on social media:</p>
+
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="https://www.instagram.com/liu_melodyy/" target="_blank" rel="noopener noreferrer" class="list-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://twitter.com/driiednoodle" target="_blank" rel="noopener noreferrer" class="list-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://www.tumblr.com/a-sad-cow" target="_blank" rel="noopener noreferrer" class="list-link">
+                            <i class="ri-tumblr-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful Links</h6>
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="index.html" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="about.html" class="list-link">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+     </footer>
+
+     <script src="main.js"></script>
+</body>
+</html>
